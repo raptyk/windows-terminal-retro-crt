@@ -1,0 +1,143 @@
+{
+    "profiles": [
+        {
+            "guid": "{7d3c2f6e-1a4b-4c8e-9f21-5e0b3a6c8d42}",
+            "name": "Retro CRT · C64",
+            "commandline": "__PWSH_COMMANDLINE__",
+            "startingDirectory": "%USERPROFILE%",
+            "tabTitle": "RETRO CRT",
+            "icon": "📺",
+            "hidden": false,
+            "colorScheme": "Retro CRT · Green Phosphor",
+            "font": {
+                "face": "C64 Pro Mono",
+                "size": 11,
+                "weight": "normal"
+            },
+            "experimental.pixelShaderPath": "__SHADER_DIR__\\crt.hlsl",
+            "experimental.retroTerminalEffect": false,
+            "adjustIndistinguishableColors": "never",
+            "cursorShape": "filledBox",
+            "opacity": 100,
+            "useAcrylic": false,
+            "padding": "28, 22"
+        },
+        {
+            "guid": "{a8e41c57-3d92-4f6b-b0c8-2e7f19d4a613}",
+            "name": "Retro CRT · VGA",
+            "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "startingDirectory": "%USERPROFILE%",
+            "icon": "🟢",
+            "hidden": false,
+            "colorScheme": "Retro CRT · Phosphor Daily",
+            "font": {
+                "face": "PxPlus IBM VGA 9x16",
+                "size": 12,
+                "weight": "normal"
+            },
+            "antialiasingMode": "aliased",
+            "intenseTextStyle": "all",
+            "experimental.pixelShaderPath": "__SHADER_DIR__\\crt-daily.hlsl",
+            "experimental.retroTerminalEffect": false,
+            "adjustIndistinguishableColors": "never",
+            "cursorShape": "filledBox",
+            "opacity": 100,
+            "useAcrylic": false,
+            "padding": "16, 14"
+        },
+        {
+            "guid": "{c3f7d2a9-6b14-4e85-a1d0-8f29e7b5c364}",
+            "name": "Retro CRT · Terminus",
+            "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "startingDirectory": "%USERPROFILE%",
+            "icon": "🟢",
+            "hidden": false,
+            "colorScheme": "Retro CRT · Phosphor Daily",
+            "font": {
+                "face": "Terminus (TTF) for Windows",
+                "size": 12,
+                "weight": "normal"
+            },
+            "antialiasingMode": "aliased",
+            "intenseTextStyle": "all",
+            "experimental.pixelShaderPath": "__SHADER_DIR__\\crt-daily.hlsl",
+            "experimental.retroTerminalEffect": false,
+            "adjustIndistinguishableColors": "never",
+            "cursorShape": "filledBox",
+            "opacity": 100,
+            "useAcrylic": false,
+            "padding": "16, 14"
+        },
+        {
+            "guid": "{e91b4c06-2d7a-4f3e-9c58-b6a03d1f7e29}",
+            "name": "Retro CRT · Plex",
+            "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "startingDirectory": "%USERPROFILE%",
+            "icon": "🟢",
+            "hidden": false,
+            "colorScheme": "Retro CRT · Phosphor Daily",
+            "font": {
+                "face": "IBM Plex Mono",
+                "size": 10,
+                "weight": "normal"
+            },
+            "antialiasingMode": "grayscale",
+            "intenseTextStyle": "all",
+            "experimental.pixelShaderPath": "__SHADER_DIR__\\crt-daily.hlsl",
+            "experimental.retroTerminalEffect": false,
+            "adjustIndistinguishableColors": "never",
+            "cursorShape": "filledBox",
+            "opacity": 100,
+            "useAcrylic": false,
+            "padding": "16, 14"
+        }
+    ],
+    "schemes": [
+        {
+            "name": "Retro CRT · Green Phosphor",
+            "background": "#050A06",
+            "foreground": "#4DFF7C",
+            "cursorColor": "#5CFF8A",
+            "selectionBackground": "#1E6B34",
+            "black": "#050A06",
+            "red": "#C8E04A",
+            "green": "#33E06A",
+            "yellow": "#D6F06A",
+            "blue": "#2E9E7A",
+            "purple": "#8FD65A",
+            "cyan": "#3FD9A8",
+            "white": "#9CE8AE",
+            "brightBlack": "#2F5A3A",
+            "brightRed": "#E8FF7A",
+            "brightGreen": "#7CFF9E",
+            "brightYellow": "#F2FFA8",
+            "brightBlue": "#5FD8B0",
+            "brightPurple": "#C4FF8A",
+            "brightCyan": "#8CFFE0",
+            "brightWhite": "#D8FFE2"
+        },
+        {
+            "name": "Retro CRT · Phosphor Daily",
+            "background": "#0A110C",
+            "foreground": "#8EE8A0",
+            "cursorColor": "#8CF5A0",
+            "selectionBackground": "#2A5A36",
+            "black": "#0A110C",
+            "red": "#E8604E",
+            "green": "#5AD872",
+            "yellow": "#E0C25A",
+            "blue": "#5E9FD0",
+            "purple": "#B07CD0",
+            "cyan": "#4FC7B8",
+            "white": "#B8DCC0",
+            "brightBlack": "#4E6B55",
+            "brightRed": "#FF8A78",
+            "brightGreen": "#A6F5B4",
+            "brightYellow": "#FFE38A",
+            "brightBlue": "#8CC4F0",
+            "brightPurple": "#D8A6F0",
+            "brightCyan": "#8CEBE0",
+            "brightWhite": "#E4FFE9"
+        }
+    ]
+}
