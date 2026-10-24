@@ -340,9 +340,9 @@ powershell -ExecutionPolicy Bypass -File .\uninstall.ps1 -RemoveFonts</code></pr
 
     var saved = null;
     try { saved = localStorage.getItem('retrocrt-lang'); } catch (e) { }
+    // English by default; Polish only via the PL button (remembered) or a #pl link (README.pl.md).
     var fromHash = location.hash === '#pl' ? 'pl' : (location.hash === '#en' ? 'en' : null);
-    var browser = (navigator.language || '').toLowerCase().indexOf('pl') === 0 ? 'pl' : 'en';
-    setLang(fromHash || saved || browser);
+    setLang(fromHash || saved || 'en');
 
     buttons.forEach(function (b) { b.addEventListener('click', function () { setLang(b.dataset.setLang); }); });
 
